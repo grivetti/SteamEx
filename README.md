@@ -70,7 +70,7 @@ python main.py -s N
 ```shell
 python main.py -p N
 ```
-## Licença
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
