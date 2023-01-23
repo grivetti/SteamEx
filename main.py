@@ -25,12 +25,12 @@ def main():
                                 help = 'Pass the number of pages to scrap data from steam website into Data/steam.csv')
     parser.add_argument('-p', '--processing',action = 'store',metavar='N', type=int,
                            default = False,
-                            help = 'Pass thr number of ages for processing data to make the recomendation"')
+                            help = 'Pass thr number of ages for processing data to make the recommendation"')
     args = parser.parse_args()
-    if(args.s):
-        scrapping(args.s)
-    elif(args.p):
-        process(args.p)
+    if(args.scrapping):
+        scrapping(args.scrapping)
+    elif(args.processing):
+        process(args.processing)
     else:
         parser.print_help()
 if __name__ == '__main__':
