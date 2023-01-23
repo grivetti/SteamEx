@@ -4,12 +4,12 @@
 ## Why?
 When developing a game, it is normal for not
 knowing what kind of game to develop, this bot
-can be usefull.
+can be useful.
 Basically, this bot scraps data from steam website
 into a csv file, after that, you can choose to
 feed this data into the bot, which will recommend
 you the best genres to develop a game to make
-sucess.
+success.
 ## Setup
 
 Setup the project by either using pipenv or 
